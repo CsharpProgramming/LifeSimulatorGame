@@ -115,7 +115,7 @@ namespace LifeSimulatorGame
                 NextJob3Needed.Text = "Needed: ???";
             }
 
-            if (JobLevel == 3)
+            else if (JobLevel == 3)
             {
                 NextJob1.Text = "Job: ???";
                 NextJob2.Text = "Job: ???";
