@@ -42,7 +42,6 @@ namespace LifeSimulatorGame
 
             else if (ArtS >= 5 && JobLevel == 1)
             {
-                //Upgrade job
                 JobLevel++;
                 IQ += 3;
                 LabelWorkPrice.Text = "Working for: $10 per hour (click)";
@@ -52,7 +51,6 @@ namespace LifeSimulatorGame
 
             else if (MathsS >= 15 && JobLevel == 2)
             {
-                //Upgrade job
                 JobLevel++;
                 IQ += 7;
                 LabelWorkPrice.Text = "Working for: $25 per hour (click)";
@@ -62,7 +60,6 @@ namespace LifeSimulatorGame
 
             else if (ArtS >= 15 && JobLevel == 2)
             {
-                //Upgrade job
                 JobLevel++;
                 IQ += 7;
                 LabelWorkPrice.Text = "Working for: $25 per hour (click)";
