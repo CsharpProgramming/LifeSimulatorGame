@@ -1,4 +1,4 @@
-# LifeSimulatorGame
+# Life Simulator Game
 Life Simulator game Beta, this is a BASIC version the full one will be at 100 sbuscribes!
 
 features:
