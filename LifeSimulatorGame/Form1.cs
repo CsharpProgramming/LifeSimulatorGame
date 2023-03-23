@@ -28,7 +28,7 @@ namespace LifeSimulatorGame
 
         public void GetAllData(object sender, EventArgs e)
         {
-            //This void is more like a game Loop/Update function
+            //This void is a game Loop/Update function
 
             if (MathsS >= 5 && JobLevel == 1)
             {
