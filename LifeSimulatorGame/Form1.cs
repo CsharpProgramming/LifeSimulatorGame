@@ -13,7 +13,7 @@ namespace LifeSimulatorGame
     public partial class Form1 : Form
     {
         int Money = 0;
-        int Networth = 100;
+        int Networth = 0;
         int Age = 18;
         int IQ = 75;
         int JobLevel = 1;
