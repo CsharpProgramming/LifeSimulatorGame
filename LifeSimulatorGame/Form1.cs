@@ -37,7 +37,6 @@ namespace LifeSimulatorGame
                 IQ += 3;
                 LabelWorkPrice.Text = "Working for: $10 per hour (click)";
                 JobType.Text = "Job: new Maths teacher";
-                ChangeNextJobs(sender, e);
             }
 
             else if (ArtS >= 5 && JobLevel == 1)
@@ -46,7 +45,6 @@ namespace LifeSimulatorGame
                 IQ += 3;
                 LabelWorkPrice.Text = "Working for: $10 per hour (click)";
                 JobType.Text = "Job: new Art teacher";
-                ChangeNextJobs(sender, e);
             }
 
             else if (MathsS >= 15 && JobLevel == 2)
@@ -55,7 +53,6 @@ namespace LifeSimulatorGame
                 IQ += 7;
                 LabelWorkPrice.Text = "Working for: $25 per hour (click)";
                 JobType.Text = "Job: Maths teacher";
-                ChangeNextJobs(sender, e);
             }
 
             else if (ArtS >= 15 && JobLevel == 2)
@@ -64,9 +61,9 @@ namespace LifeSimulatorGame
                 IQ += 7;
                 LabelWorkPrice.Text = "Working for: $25 per hour (click)";
                 JobType.Text = "Job: Art teacher";
-                ChangeNextJobs(sender, e);
             }
 
+            ChangeNextJobs(sender, e);
             UpdateCounters(sender, e);
             AgeManager(sender, e);
         }
