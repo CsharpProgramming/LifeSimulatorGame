@@ -68,7 +68,6 @@ namespace LifeSimulatorGame
 
         private void AgeManager(object sender, EventArgs e)
         {
-            //This will just add up to 5 years to your age, you can add more if you want to
             if (HoursSpentWorking >= 100 && HoursSpentWorking < 200 && Age < 19)
             {
                 Age++;
